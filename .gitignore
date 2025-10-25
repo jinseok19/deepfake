@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# 제출용 폴더 (매번 생성)
+submit/
+
+# 테스트 결과
+submission.csv
+test_results/
+*.log
+
+# 모델 임시 파일
+*.pth
+*.ckpt
+*.pt
+checkpoint/
+checkpoints/
+
+# 데이터 (용량 큰 파일)
+data/
+datasets/
+*.zip
+*.tar
+*.gz
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 임시 파일
+*.tmp
+*.bak
+*.swp
+*~
+
+# 캐시
+.cache/
+*.cache
+
