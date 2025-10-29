@@ -1,0 +1,11 @@
+{
+  "setup-worktree": [
+    "{",
+    "\"setup-worktree\": [",
+    "\"python -m venv venv\",",
+    "\"source venv/bin/activate && pip install -r requirements.txt\",",
+    "\"cp $ROOT_WORKTREE_PATH/.env .env\"",
+    "]",
+    "}"
+  ]
+}

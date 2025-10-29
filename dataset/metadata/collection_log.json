@@ -1,0 +1,51 @@
+{
+  "start_time": "2025-10-30T04:11:32.065894",
+  "results": [
+    {
+      "name": "Real 데이터셋 다운로드",
+      "script": "download_real_datasets.py",
+      "status": "failed",
+      "error_code": 1,
+      "duration_seconds": 1066.029311,
+      "start_time": "2025-10-30T04:11:32.065894",
+      "end_time": "2025-10-30T04:29:18.095205"
+    },
+    {
+      "name": "YouTube 크롤링",
+      "script": "crawl_youtube.py",
+      "status": "failed",
+      "error_code": 1,
+      "duration_seconds": 1.001867,
+      "start_time": "2025-10-30T04:29:18.101207",
+      "end_time": "2025-10-30T04:29:19.103074"
+    },
+    {
+      "name": "Reddit 크롤링",
+      "script": "crawl_reddit.py",
+      "status": "failed",
+      "error_code": 1,
+      "duration_seconds": 0.676297,
+      "start_time": "2025-10-30T04:29:19.103074",
+      "end_time": "2025-10-30T04:29:19.779371"
+    },
+    {
+      "name": "갤러리 크롤링",
+      "script": "crawl_galleries.py",
+      "status": "failed",
+      "error_code": 1,
+      "duration_seconds": 1.346743,
+      "start_time": "2025-10-30T04:29:19.779371",
+      "end_time": "2025-10-30T04:29:21.126114"
+    },
+    {
+      "name": "메타데이터 통합",
+      "script": "merge_metadata.py",
+      "status": "failed",
+      "error_code": 1,
+      "duration_seconds": 0.967738,
+      "start_time": "2025-10-30T04:29:21.126114",
+      "end_time": "2025-10-30T04:29:22.093852"
+    }
+  ],
+  "end_time": "2025-10-30T04:29:22.097866"
+}
