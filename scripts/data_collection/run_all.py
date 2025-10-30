@@ -74,7 +74,9 @@ class DataCollectionMaster:
     def run_script(self, script_info):
         """개별 스크립트 실행"""
         script_name = script_info['name']
-        script_path = script_info['script']
+        # 스크립트의 절대 경로 생성
+        script_dir = Path(__file__).parent
+        script_path = str(script_dir / script_info['script'])
         args = script_info['args']
         
         print("\n" + "=" * 70)
